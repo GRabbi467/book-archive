@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Archive</title>
+
+    <!-- css framework -->
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+
+    <!-- adding icon -->
+    <link rel="shortcut icon" href="images/book icon.jpg" type="image/x-icon">
+
+    <style>
+          #loading {
+        display: none;
+      }
+    </style>
+</head>
+<body>
+    <!-- input section -->
+      <!-- section for input  -->
+      <section class="mt-8 input-sectoion" id="inp-sec">
+        <h3 class="text-grey-600 text-3xl text-center font-bold">Book Archive</h3>
+        <hr class="mt-2 border-grey-600 border-b-2" />
+        <div class="w-3/4 text-center mt-8 mx-auto">
+          <input
+            class="
+              py-1
+              px-3
+              rounded-full
+              border-2
+              text-green-600
+              border-green-600
+              md:w-4/12
+              w-full
+              
+            "
+            type="text"
+            placeholder="Search Book here"
+            name="search"
+            id="search-field"
+          />
+          <button
+            id="src-btn"
+            class="
+              md:my-2
+              mt-2
+              text-white
+              py-1
+              px-10
+              rounded-full
+              bg-green-600
+              border-2 border-green-600
+            "
+          >
+            Search
+          </button>
+        </div>
+      </section>
+    
+</body>
+</html>
