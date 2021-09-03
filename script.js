@@ -90,3 +90,7 @@ const showBook = (booksData, numberOfresult) => {
     ).innerText = `${numberOfresult} results found. showing results for ${books} books.`;
   }
 };
+const loading = (status) => {
+    //   console.log(status);
+      document.getElementById("loading").style.display = status;
+    };
